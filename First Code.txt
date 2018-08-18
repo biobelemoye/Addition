@@ -1,0 +1,25 @@
+import java.util.scanner;
+class Opt
+{
+	public void operation ()
+	{
+		int a,b,c,d;
+		d=0
+		Scanner opts=new Scanner(System.in);
+
+		system.out.println("please enter the value for a : ");
+		a=opts.nextInt();
+		system.out.println("Enter value for b : ");
+		b=opts.nextInt();
+
+		c = (a+b) ;
+		d += c;
+
+	}	system.out.println("The value of C is : "+d));
+	
+	public static void main(string []args)
+	{
+		Opt arthmtc=new Opt ();
+		arthmtc.operation();
+	}
+}
